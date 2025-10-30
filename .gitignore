@@ -1,22 +1,36 @@
-# Logs
-logs
-*.log
+# Node modules (BIGGEST ONE)
+node_modules/
+
+# Environment variables (secrets!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build folders
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.vercel/
+
+# Logs & caches
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+.pnpm-debug.log*
+*.log
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# OS junk
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.idea/
+.vscode/
 *.suo
 *.ntvs*
 *.njsproj
